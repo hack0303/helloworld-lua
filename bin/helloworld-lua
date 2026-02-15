@@ -1,0 +1,14 @@
+#!/usr/bin/env lua
+
+-- 引入项目核心模块
+local core = require("my_app.core")
+
+-- 脚本入口逻辑
+local function main()
+    print("=== helloworld-lua 启动 ===")
+    core.greet()  -- 调用核心模块方法
+    print("=== helloworld-lua 退出 ===")
+end
+
+-- 执行主函数
+main()
